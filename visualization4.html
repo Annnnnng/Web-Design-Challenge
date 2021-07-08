@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Wind Speed</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</head>
+<body style="background-color:#ddd;">  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="landingpage.html"><span style=color:white>Latitude</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Plots
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="visualization1.html">Max Temperature</a>
+              <a class="dropdown-item" href="visualization2.html">Humidity</a>
+              <a class="dropdown-item" href="visualization3.html">Cloudiness</a>
+              <a class="dropdown-item" href="visualization4.html">Wind Speed</a>
+            </div>
+          </li>
+      <li class="nav-item">
+        <a class="nav-link" href="comparision.html">Comparision</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">Data</a>
+      </li>
+    </ul>
+  </nav>
+  
+
+
+<div class="container" bg=light>
+  <div class="row">
+    <div class="col-sm-6 col-md-8"> 
+     <article>
+        <h1 style="color:mediumaquamarine">Wind Speed</h1>
+        <hr>   
+        <br>
+        <br> 
+        <span style="display: inline-block;" class="container pt-3" bg=light style="margin-right: 30px;">
+        <img src="assets/images/Fig4.png" class="float-left" alt="image" width="650" height="400" style="margin-right:8px;"> 
+        </span> 
+      <p>As shown in the scatter chart, as latitude increases, the wind speed becomes stronger. 
+          In the meantime, the northern hemisphere lends to have significantly stronger wind speed compared to 
+          southern hemisphere at the same time of the year.
+      </p>  
+    </article>
+    </div> 
+
+    <div class="col-sm-6 col-md-4"> 
+      <article>
+      <h2 style="color:mediumaquamarine">Visualizations</h2></span>
+      <hr>
+      <a href="visualization1.html" target="_blank">
+        <img src="assets/images/Fig1.png" alt="Fig2" alt="image" width="150" height="170">
+      </a>
+      <a href="visualization2.html" target="_blank">
+        <img src="assets/images/Fig2.png" alt="Fig2" alt="image" width="150" height="170">
+      </a>
+      <a href="visualization3.html" target="_blank">
+        <img src="assets/images/Fig3.png" alt="Fig2" alt="image" width="150" height="170">
+      </a>
+      <a href="visualization4.html" target="_blank">
+        <img src="assets/images/Fig4.png" alt="Fig2" alt="image" width="150" height="170" style="border:solid mediumaquamarine">
+      </a>
+    </article> 
+    </div>
+  </div>
+  </div>  
+</body>
+</html>

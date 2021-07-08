@@ -1,0 +1,41 @@
+
+  
+
+ article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  margin: 40px;
+  background-color: white;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: mediumaquamarine;
+}
+
+a.navbar-brand {
+  background-color:mediumaquamarine;
+  padding: 10px;
+  font-size: 160%;
+}
+
+
+ 

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Landing Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head> 
+<body style="background-color:#ddd;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="landingpage.html"><span style=color:white>Latitude</span></a>
+    <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Plots
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="visualization1.html">Max Temperature</a>
+              <a class="dropdown-item" href="visualization2.html">Humidity</a>
+              <a class="dropdown-item" href="visualization3.html">Cloudiness</a>
+              <a class="dropdown-item" href="visualization4.html">Wind Speed</a>
+            </div>
+          </li>
+      <li class="nav-item">
+        <a class="nav-link" href="comparision.html">Comparision</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">Data</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="container" bg=light>
+    <div class="row">
+      <div class="col-md-8"> 
+       <article>
+         <h1 style="color:mediumaquamarine">Summary: Latitude vs. X</h1>
+         <hr>
+         <br>
+         <br>
+         <img src="assets/images/Fig1.png" class="float-left" alt="image" width="210" height="230" style="margin-right:8px;"> 
+    
+    
+         <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+       To accomplish this analysis, 
+       we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.</p>  
+    
+         <p style="margin-top:15%;">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitdue. 
+        Factors we looked at incuded: tempurature, cloudiness, wind speed, and humidity. This site provides 
+        the source data and visualizations created as part of the analysis, as well as explanations and descriptions
+        of any trends and correlations witnessed.
+         </p> 
+        </article>
+      </div>
+
+  <div class="col-md-4"> 
+   <article>
+    
+      <h2 style="color:mediumaquamarine">Visualizations</h2>
+      <br>
+      <a href="visualization1.html" target="_blank">
+        <img src="assets/images/Fig1.png" alt="Fig2" alt="image" width="150" height="170">
+      </a>
+      <a href="visualization2.html" target="_blank">
+        <img src="assets/images/Fig2.png" alt="Fig2" alt="image" width="150" height="170">
+      </a>
+      <a href="visualization3.html" target="_blank">
+        <img src="assets/images/Fig3.png" alt="Fig2" alt="image" width="150" height="170">
+      </a>
+      <a href="visualization4.html" target="_blank">
+        <img src="assets/images/Fig4.png" alt="Fig2" alt="image" width="150" height="170">
+      </a>
+    </article>
+  </div>
+</div>
+ </div>
+</div>
+</body>
+</html>
